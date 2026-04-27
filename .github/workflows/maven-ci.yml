@@ -1,4 +1,11 @@
+name: Java Matrix strategy
 jobs:
+  on:
+    push:
+      branches: [ "master", "main" ]
+    pull_request:
+      branches: [ "master", "main" ]
+
   build:
     # Cấu hình Matrix Strategy
     strategy:
