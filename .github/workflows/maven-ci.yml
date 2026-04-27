@@ -1,11 +1,11 @@
 name: Java Matrix strategy
-jobs:
-  on:
+
+on:
     push:
       branches: [ "master", "main" ]
     pull_request:
       branches: [ "master", "main" ]
-
+jobs:
   build:
     # Cấu hình Matrix Strategy
     strategy:
